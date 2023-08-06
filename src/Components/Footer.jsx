@@ -1,13 +1,16 @@
+import "../Style/footer.css";
+
 const Footer = () => {
-    return (
-      <>
+  return (
+    <>
+      <section className="footer">
         <p className="credits">
-          created by - <a href="https://github.com/RonyPadilla">RonyPadilla</a> -
-          devChallenges.io
+          created by - <a href="https://github.com/RonyPadilla">RonyPadilla</a>{" "}
+          - devChallenges.io
         </p>
-      </>
-    );
-  };
-  
-  export default Footer;
-  
+      </section>
+    </>
+  );
+};
+
+export default Footer;

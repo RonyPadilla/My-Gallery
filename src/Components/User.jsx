@@ -11,8 +11,8 @@ function User() {
               alt="User-Img"
             />
 
-          <h2>Rodney Cotton</h2>
-          <p>Helsinki, Finland</p>
+          <h2 className="title-name">Rodney Cotton</h2>
+          <p className="location">Helsinki, Finland</p>
         </div>
         <div className="container-data">
             <div className="user-information">
